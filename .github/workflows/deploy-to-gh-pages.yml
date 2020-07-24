@@ -12,8 +12,8 @@ jobs:
         with:
           persist-credentials: false 
       - name: Install and Build 🔧
-        uses: jetli/wasm-pack-action@v0.3.0
         run: |
+          curl https://rustwasm.github.io/wasm-pack/installer/init.sh -sSf | sh
           npm install
           npm run build
       - name: Deploy 🚀

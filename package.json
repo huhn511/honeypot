@@ -1,7 +1,7 @@
 {
   "name": "honeypot",
   "version": "0.0.1",
-  "description": "",
+  "description": "The first IOTA Mobile Game",
   "main": "webpack.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
